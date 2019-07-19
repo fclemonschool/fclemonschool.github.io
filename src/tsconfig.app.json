@@ -1,7 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "outDir": "../out-tsc/app",
+    "outDir": "../out-tsc",
     "types": []
   },
   "exclude": [
@@ -9,6 +9,8 @@
     "**/*.spec.ts"
   ],
   "angularCompilerOptions": {
-    "enableIvy": true
+    "enableIvy": false,
+    "annotationsAs": "static fields",
+    "annotateForClosureCompiler": true
   }
 }

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "title": "Closure Compiler Builder.",
+  "description": "Closure Compiler Builder schema for Architect.",
+  "type": "object",
+  "properties": {
+    "tsConfig": {
+      "type": "string",
+      "description": "The path to the Closure configuration file."
+    },
+    "closureConfig": {
+      "type": "string",
+      "description": "The path to the Closure configuration file."
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "tsConfig",
+    "closureConfig"
+  ]
+}

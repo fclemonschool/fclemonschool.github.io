@@ -1,0 +1,11 @@
+{
+  "$schema": "@angular-devkit/architect/src/builders-schema.json",
+  "builders": {
+    "closure": {
+      "implementation": "./src/closure/index",
+      "class": "./src/closure",
+      "schema": "./src/closure/schema.json",
+      "description": "Build a Closure app."
+    }
+  }
+}

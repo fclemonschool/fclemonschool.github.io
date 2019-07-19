@@ -27,7 +27,7 @@
             ],
             "scripts": [],
             "es5BrowserSupport": true,
-            "aot": true
+            "aot": false
           },
           "configurations": {
             "production": {
@@ -54,6 +54,13 @@
                 }
               ]
             }
+          }
+        },
+        "closure_build": {
+          "builder": "./build_tools:closure",
+          "options": {
+            "closureConfig": "closure.conf",
+            "tsConfig": "src/tsconfig.app.json"
           }
         },
         "serve": {
