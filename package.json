@@ -50,5 +50,8 @@
     "tsickle": "^0.37.1",
     "tslint": "^5.20.1",
     "typescript": "^3.6.4"
+  },
+  "resolutions": {
+    "serialize-javascript": "^2.1.1"
   }
 }
