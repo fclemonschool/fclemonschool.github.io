@@ -26,7 +26,6 @@
               "src/styles.css"
             ],
             "scripts": [],
-            "es5BrowserSupport": true,
             "aot": false
           },
           "configurations": {
